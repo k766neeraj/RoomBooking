@@ -1,0 +1,231 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #d4faed;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.landing{
+  width:1300px;
+  border-radius:10px;
+}
+.welcome{
+  position: absolute;
+  top:20%;
+  font-size: 84px;
+  font-weight: 800;
+  width: 1297px;
+  color: rebeccapurple;
+}
+
+.bghotel {
+  background-image: url('../public/hotelbg.jpg');
+  width: 1300px;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 50%;
+  border-radius: 10px;
+}
+.whyus{
+  position: absolute;
+  top:50%;
+  width: 1297px;
+  height: 20vh;
+  display: flex;
+  justify-content: center;
+}
+#why{
+  text-align: center;
+  background-color: white;
+  color: black;
+  font-size: 10px;
+  width: 800px;
+  height: 20vh;
+  font-size: 17px;
+  font-weight: 700;
+  opacity: 73%;
+  border-radius: 10px;
+}
+
+.review{
+  position: absolute;
+  top: 72%;
+  width: 1297px;
+  color: antiquewhite;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.smaple{
+  position: absolute;
+  top: 80%;
+  width: 1297px;
+}
+
+.samp{
+  width: 300px;
+  height: 200px;
+  margin: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: rebeccapurple;
+}
+.rev-i{
+  border: 2px solid black;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  width: 120px;
+}
+.rev-p{
+  border: 2px solid black;
+  font-size: 15px;
+  font-weight: 500;
+  background-color: azure;
+  opacity: 80%;
+}
+.room {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  display: inline-block;
+  width: 30%;
+}
+
+.room img {
+  max-width: 100%;
+}
+
+.room h2 {
+  font-size: 1.5em;
+}
+.book-button {
+  background-color: #007BFF;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.foot{
+  width:85vw;
+  height:5vh;
+  background-color:rgb(174 201 206)
+}
+
+@media (max-width:447px) {
+  .foot{
+    height: 10vh;
+  }
+}
+@media (max-width:550px) {
+  .foot{
+    height: 10vh;
+  }
+  
+}
+@media (max-width:970px) {
+  .rooms{
+    flex-direction: column;
+  }
+  .room {
+    
+    width: 100%;
+  }
+  
+}
+
+@media (min-width:1025) and (max-width:1400px){
+  .bghotel{
+    width: 1300px;
+    background-color: red;
+  }
+}
+
+@media (max-width:1024px){
+  .bghotel{
+    width: 943px;
+  }
+  .welcome{
+    width: 943px;
+    font-size: 40px;
+  }
+  .whyus{
+    width: 943px;
+  }
+  .landing{
+    width: 943px;
+  }
+  .review{
+    width: 943px;
+  }
+  .smaple{
+    width: 943px;
+  }
+}
+@media (max-width:768px){
+  .bghotel{
+    width: 702px;
+  }
+  .welcome{
+    width: 702px;
+    font-size: 43px;
+    top: 20%;
+  }
+  .whyus{
+    width: 702px;
+    top: 42%;
+  }
+  .landing{
+    width: 702px;
+  }
+  .review{
+    width: 702px;
+    top: 65%;
+  }
+  .smaple{
+    width: 702px;
+    top: 75%;
+  }
+}
+@media (max-width:426px){
+  .bghotel{
+    width: 406px;
+    height: 174vh;
+  }
+  .welcome{
+    width: 406px;
+    font-size: 43px;
+    top: 20%;
+  }
+  #why{
+    height: 33vh;
+  }
+  .whyus{
+    width: 406px;
+    top: 46%;
+  }
+  .landing{
+    width: 406px;
+  }
+  .review{
+    width: 406px;
+    top: 82%;
+  }
+  .smaple{
+    width: 406px;
+    top: 89%;
+    flex-direction: column;
+    align-items: center;
+  }
+}
